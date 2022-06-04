@@ -1,10 +1,10 @@
 import React from 'react'
-import NavBar from '../components/NavBar'
+import Seo from '../components/Seo'
 
 function about() {
   return (
     <div>
-      <NavBar />
+      <Seo title="About" />
       <h1>about</h1>
     </div>
   )
